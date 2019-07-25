@@ -16,7 +16,7 @@ module.exports = {
             type: 'testnet',
           }
           break
-        case 'https://node.funcoin.io':
+        case 'https://node.funcoin.io/':
           safeVersionedData.data.config.provider = {
             type: 'mainnet',
           }
