@@ -3,10 +3,10 @@ const defaultNetworksData = [
     labelKey: 'mainnet',
     iconColor: '#29B6AF',
     providerType: 'mainnet',
-    rpcUrl: 'https://api.infura.io/v1/jsonrpc/mainnet',
+    rpcUrl: 'https://node.funcoin.io',
     chainId: '1',
-    ticker: 'ETH',
-    blockExplorerUrl: 'https://etherscan.io',
+    ticker: 'FUNC',
+    blockExplorerUrl: 'https://explorer.funcoin.io',
   },
   {
     labelKey: 'ropsten',
