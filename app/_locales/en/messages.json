@@ -331,7 +331,7 @@
     "message": "Connecting to Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Connecting to Main Ethereum Network"
+    "message": "Connecting to Main FUNCOIN Network"
   },
   "connectingToRopsten": {
     "message": "Connecting to Ropsten Test Network"
@@ -909,7 +909,7 @@
     "message": "seed words only have lowercase characters"
   },
   "mainnet": {
-    "message": "Main Ethereum Network"
+    "message": "Main FUNCOIN Network"
   },
   "memorizePhrase": {
     "message": "Memorize this phrase."

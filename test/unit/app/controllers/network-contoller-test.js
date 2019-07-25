@@ -91,7 +91,7 @@ describe('Network utils', () => {
         expected: 'Kovan',
       }, {
         input: 'mainnet',
-        expected: 'Main Ethereum Network',
+        expected: 'Main FUNCOIN Network',
       }, {
         input: 'goerli',
         expected: 'Goerli',
