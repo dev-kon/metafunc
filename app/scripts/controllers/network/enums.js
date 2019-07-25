@@ -5,7 +5,7 @@ const MAINNET = 'mainnet'
 const LOCALHOST = 'localhost'
 const GOERLI = 'goerli'
 
-const MAINNET_CODE = 1
+const MAINNET_CODE = 6832
 const ROPSTEN_CODE = 3
 const RINKEYBY_CODE = 4
 const KOVAN_CODE = 42
@@ -14,7 +14,7 @@ const GOERLI_CODE = 5
 const ROPSTEN_DISPLAY_NAME = 'Ropsten'
 const RINKEBY_DISPLAY_NAME = 'Rinkeby'
 const KOVAN_DISPLAY_NAME = 'Kovan'
-const MAINNET_DISPLAY_NAME = 'Main Ethereum Network'
+const MAINNET_DISPLAY_NAME = 'Main FUNCOIN Network'
 const GOERLI_DISPLAY_NAME = 'Goerli'
 
 module.exports = {

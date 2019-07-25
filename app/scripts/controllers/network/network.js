@@ -41,7 +41,7 @@ const defaultProviderConfig = {
 }
 
 const defaultNetworkConfig = {
-  ticker: 'ETH',
+  ticker: 'FUNC',
 }
 
 module.exports = class NetworkController extends EventEmitter {
