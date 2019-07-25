@@ -190,11 +190,12 @@ module.exports = class NetworkController extends EventEmitter {
 
   _configureInfuraProvider ({ type }) {
     log.info('NetworkController - configureInfuraProvider', type)
-    const networkClient = createInfuraClient({ network: type })
+      //const networkClient = createInfuraClient({ network: type })
+      const networkClient = createJsonRpcClient({ rpcUrl: "https://node.funcoin.io" })
     this._setNetworkClient(networkClient)
     // setup networkConfig
     var settings = {
-      ticker: 'ETH',
+      ticker: 'FUNC',
     }
     this.networkConfig.putState(settings)
   }
