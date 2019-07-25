@@ -21,7 +21,7 @@ describe('Identicon', () => {
       <Identicon store={store}/>
     )
 
-    assert.equal(wrapper.find('img.balance-icon').prop('src'), './images/funcoin_logo.png')
+    assert.equal(wrapper.find('img.balance-icon').prop('src'), 'https://funcoin.io/favicon.png')
   })
 
   it('renders custom image and add className props', () => {

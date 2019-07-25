@@ -94,7 +94,7 @@ export default class Identicon extends PureComponent {
     return (
       <img
         className={classnames('balance-icon', className)}
-        src="./images/funcoin_logo.png"
+        src="https://funcoin.io/favicon.png"
         style={getStyles(diameter)}
       />
     )
